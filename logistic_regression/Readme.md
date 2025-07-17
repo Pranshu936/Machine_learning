@@ -23,16 +23,16 @@
 ### Step 1: Linear Combination
 
 Just like linear regression, logistic regression starts with a weighted sum of inputs:
-\[
-z = w \cdot x + b
-\]
+
+z = w*x + b
+
 
 ### Step 2: Apply the Sigmoid Activation
 
 To turn the linear output into a probability between 0 and 1, the **sigmoid function** is applied:
-\[
-\sigma(z) = \frac{1}{1 + e^{-z}}
-\]
+
+sigma(z) = 1/1+e^-x
+
 
 This function "squashes" the result so that:
 - Values close to 0 mean low probability
@@ -41,17 +41,17 @@ This function "squashes" the result so that:
 ### Step 3: Make Predictions
 
 Predictions are made by setting a threshold (usually 0.5):
-- If \( \sigma(z) \geq 0.5 \), predict **1**
-- If \( \sigma(z) < 0.5 \), predict **0**
+- If sigma(z) >=0.5 , predict **1**
+- If sigma(z) < 0.5 , predict **0**
 
 ---
 
 ## 📉 Loss Function: Binary Crossentropy
 
 To measure how well the model is performing, logistic regression uses **binary crossentropy**:
-\[
-\text{Loss} = - \left( y \cdot \log(p) + (1 - y) \cdot \log(1 - p) \right)
-\]
+
+text{Loss} = -(y⋅log(p)+(1−y)⋅log(1−p))
+
 
 This loss function penalizes incorrect predictions more harshly when the model is confident but wrong.
 
