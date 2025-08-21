@@ -75,6 +75,3 @@ The goal is to reduce cancellations, improve completion rates, and design target
 * `booking_status_metrics.json`, `churn_metrics.json` → Evaluation reports
 
 ---
-
-
-Would you like me to make this README more **resume-style (1-page, professional bullet points)** or **GitHub-style (detailed with sections like above)**?
