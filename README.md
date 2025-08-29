@@ -23,7 +23,9 @@ Each folder represents a project with its own dataset and implementation:
 * **heartML** ❤️ – Heart disease prediction models
 * **knn\_tensorflow** 🔢 – KNN algorithm using TensorFlow
 * **logistic\_regression** 📊 – Logistic regression use cases
-* **stocks\_aapl** 📈 – Apple stock price analysis and prediction
+* **Resume\_vs\_JD** 📄 – Matching resumes with job descriptions using NLP
+* **coffee** ☕ – Coffee sales/market analysis and predictions
+* **stocks\_aapl** 📈 – Stock price analysis & prediction for Apple (AAPL)
 
 ---
 
